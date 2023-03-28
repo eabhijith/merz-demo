@@ -23,7 +23,7 @@
  - Can use this component on any Object Record.
  - Toast Message on Success/Error
  
-# Live Demo (Only works if uploaded to git)
+# Live Demo (Please don't forget to add the components on the page to try)
 Live Demo on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?template=https://github.com/eabhijith/merz-demo
 
 # Preview
