@@ -1,0 +1,30 @@
+<!--
+  @description       : 
+  @author            : eabhijith@zalando.de
+  @group             : 
+  @last modified on  : 03-28-2023
+-->
+<template>
+    <lightning-card title={state.title}>
+
+        <div class="slds-var-m-around_medium">
+            <div class="slds-var-m-bottom_small">
+                <div onkeyup={handleKeyUp}>
+                    <lightning-input name={state.input.name} label={state.input.label} placeholder={state.input.placeholder}
+                        type={state.input.type}></lightning-input>
+                </div>
+            </div>
+            
+            <template if:true={displayTrackingStatus}>
+                <lightning-badge label={trackingStatus} class="slds-badge_inverse"></lightning-badge>
+            </template>
+        </div>
+
+
+        <template if:true={showSpinner}>
+            <lightning-spinner variant="brand" size="large"> </lightning-spinner>
+        </template>
+
+    </lightning-card>
+
+</template>

@@ -1,0 +1,29 @@
+<!--
+  @description       : 
+  @author            : eabhijith@gmail.com
+  @group             : 
+  @last modified on  : 03-28-2023
+-->
+<template>
+    <lightning-card  title="Shipment tracking (LWC)">
+
+        <div class="slds-notify_container slds-is-relative">
+            <div class="slds-notify slds-notify_toast slds-theme_warning" role="status">
+              
+                <h1 class="slds-text-heading_small ">Work in Progress Component!</h1>
+            </div>
+          </div>
+
+          
+            <lightning-button label="Search" icon-name="utility:search" onclick={handleSearch} slot="actions"></lightning-button>
+            <div class="slds-var-p-horizontal_small">
+                <lightning-input
+                    name="enter-search"
+                    label="Please Enter the tracking Number and click on search key"
+                    type="search"
+                ></lightning-input>
+            </div>
+
+        </lightning-card>
+
+</template>

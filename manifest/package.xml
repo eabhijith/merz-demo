@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ShipmentTrackingController</members>
+		<members>ShipmentTrackingControllerTest</members>
+		<members>ShipmentTrackingControllerMockGenerator</members>
+		<members>UtilityConstants</members>
+		
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>shipmentTrackingApex</members>
+		<members>utils</members>
+		<!--In Progress -->
+		<members>shipmentTracking</members>
+		<!--In Progress -->
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>MockShipmentStatus</members>
+		<name>NamedCredential</name>
+	</types>
+	<version>55.0</version>
+</Package>
